@@ -1,0 +1,70 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+//
+// UI elements
+//
+
+// General colors
+@syntax-text-color: @des-neutral;
+@syntax-cursor-color: @des-neutral-light;
+@syntax-selection-color: @des-bg-light;
+@syntax-background-color: @des-bg;
+
+// Guide colors
+@syntax-wrap-guide-color: @des-bg-light;
+@syntax-indent-guide-color: @des-bg-light;
+@syntax-invisible-character-color: @des-bg-light;
+
+// For find and replace markers
+@syntax-result-marker-color: @des-neutral-light;
+@syntax-result-marker-color-selected: @bluegray;
+
+// Gutter colors
+@syntax-gutter-text-color: @des-neutral-dark;
+@syntax-gutter-text-color-selected: @des-neutral;
+@syntax-gutter-background-color: @des-bg-dark;
+@syntax-gutter-background-color-selected: @des-bg-dark;
+
+@syntax-fold-marker-after: @des-neutral-light;
+
+//
+// Text Elements
+//
+
+// For highlighting various things
+@syntax-hi-error-fg: @des-neutral-light;
+@syntax-hi-error-bg: @vermillion-dark;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @bluegreen;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @vermillion;
+
+// For markup
+@syntax-header: @redpurple;
+@syntax-bold: @yellow;
+@syntax-italic: @orange;
+@syntax-link: @blue;
+@syntax-block-element: @bluegray;
+@syntax-quote: @bluegray;
+@syntax-verbatim: @des-neutral-dark;
+
+// For code
+@syntax-keyword: @skyblue;
+@syntax-builtin: @blue;
+@syntax-comment: @bluegreen;
+
+@syntax-type: @blue;
+@syntax-type-inherited: @skyblue;
+@syntax-function: @vermillion;
+@syntax-variable: @orange;
+
+@syntax-constant: @bluegray;
+@syntax-constant-escape: @skyblue;
+@syntax-constant-interpolate: @cyan;
+
+@syntax-regexp: @skyblue;
